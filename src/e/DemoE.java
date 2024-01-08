@@ -11,9 +11,10 @@ public class DemoE {
 		System.out.println("But next year will be awesome");
 	}
 
-	public static test(String firstPart, String nextPart) {
-		String firstPart = "Hey";
-		String nextPart = "Is it working?";
+	public static void test(String firstPart, String nextPart) {
+		firstPart = "Hey";
+		nextPart = "Is it working?";
+		
 	System.out.println(firstPart + nextPart);
 }
 }
